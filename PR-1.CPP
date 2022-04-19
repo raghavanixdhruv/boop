@@ -10,7 +10,7 @@ cout<<"enter the value of y";
 cin>>y;
 z=y;
 y=x;
-x=z;f
+x=z;
 cout<<"after swiping x"<<x;
 cout<<" after swiping y"<<y;
 getch();
