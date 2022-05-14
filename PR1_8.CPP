@@ -1,14 +1,15 @@
 #include<iostream.h>
 #include<conio.h>
 
-int sum(int x,int y,int z=0,int w=0)
+int sum(int a,int b,int c=0,int d=0)
 {
-return(x+y+z+w);
+return(a+b+c+d);
 }
 int main()
 {
-cout<< sum(15,20)<<endl;
-cout<< sum(15,20,10)<<endl;
-cout<< sum(15,20,10,5)<<endl;
+clrscr();
+cout<< sum(100,5)<<endl;
+cout<< sum(100,5,15)<<endl;
+cout<< sum(100,5,15,20)<<endl;
 return 0;
 }
