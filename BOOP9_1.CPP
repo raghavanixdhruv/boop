@@ -44,6 +44,7 @@
  cout<<"enter value of b.y";
  cin>>p;
  b.setdata(p);
+ min(a,b);
  return 0;
  }
 
